@@ -1,7 +1,7 @@
 public class condicionales2 {
     public static void main(String[] args) {
         int temperatura = 0;
-        boolean haceSol = true;
+        boolean haceSol = false;
         int hacesol2 = 37;
         int nevando = 10;
         

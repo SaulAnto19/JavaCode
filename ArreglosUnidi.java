@@ -7,7 +7,7 @@ public class ArreglosUnidi {
             n[i] = (int) (Math.random() * 20 + 1);
         }
         for (int i = 0; i < n.length; i++) {
-            System.out.print(n[i] + "  ");
+            System.out.println(i + " "+ n[i] + "  ");
         }
     }
 }

@@ -1,9 +1,9 @@
 public class condicionales {
     public static void main(String[] args) {
         
-        int matematicas = 3;
-        int biologia = 3;
-        int quimica = 3;
+        int matematicas = 6;
+        int biologia = 6;
+        int quimica = 6;
         int promedio = 0;
 
         promedio = (matematicas + biologia + quimica) / 3;

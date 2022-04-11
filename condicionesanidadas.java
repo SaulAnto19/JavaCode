@@ -1,6 +1,6 @@
 public class condicionesanidadas {
     public static void main(String[] args) {
-        int operacion = 1;
+        int operacion = 2;
         int num_uno = 8;
         int num_dos = 4;
         int resultado = 0;
