@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ArregloString {
     public static void main(String[] args) {
         int t;
-        String nombre;
         
         Scanner sc = new Scanner(System.in);
 
@@ -13,10 +12,13 @@ public class ArregloString {
         String[] n = new String[t];
 
         /** segundo for para imprimir mi arreglo aleatorio */
-        System.out.println ("El número de elementos en el array mis Nombres es de " + n.length );
-        for (int i = 1; i < n.length; i++) {
-            System.out.print("Ingrese el "+ i + " nombre:" + n[i]);
-            nombre = sc.nextLine();
+        System.out.println();
+        System.out.println ("El número de elementos a agregar es de: " + n.length);
+        System.out.println();
+
+        for (int i = 0; i < n.length; i++) {
+            System.out.print("Ingrese el nombre N"+ i + ": ");
+            n[i] = sc.next();
         }
         
 
