@@ -1,3 +1,5 @@
+package ArreglosyMatrices;
+
 import java.util.Scanner;
 
 public class Ejercicio_N2 {

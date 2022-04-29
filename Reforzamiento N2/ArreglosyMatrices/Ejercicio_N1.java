@@ -1,3 +1,4 @@
+package ArreglosyMatrices;
 public class Ejercicio_N1 {
     public static void main(String[] args) {
         int matriz[][]=new int[3][3];
