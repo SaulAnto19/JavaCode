@@ -127,7 +127,7 @@ public class EmpresaAutomotriz {
                     for (int i = 0; i < autos.length; i++) {
                         for (int j = 0; j < autos[0].length; j++) {
                             if (autos[i][j] < menor) {
-                                mayor = autos[i][j];
+                                menor = autos[i][j];
                             }
                         }
                     }
