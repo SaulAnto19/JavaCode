@@ -9,6 +9,7 @@ public class IngresosDeUnaEmpresa {
 
         Double menor = (double) 0;
         Double mayor = (double) 0;
+        Double promedio = (double) 0;
 
         Scanner en = new Scanner(System.in);
 
@@ -23,6 +24,7 @@ public class IngresosDeUnaEmpresa {
                             + "\t\t(2) Visualizar todos los ingresos del año\n"
                             + "\t\t(3) Determinar el mes con los mayores ingresos\n"
                             + "\t\t(4) Determinar el mes con los menores ingresos\n"
+                            + "\t\t(5) Determinar el promedio de los ingresos en el año 2019\n"
                             + "\t\t(7) salir\n"
                             + "\t\t--------------------------");
             System.out.print("\t\tOpcion: ");
@@ -87,6 +89,17 @@ public class IngresosDeUnaEmpresa {
                     System.out.println();
 
                     break;
+                }
+                // determinar el promedio de los ingresos
+                case 5: {
+                    for (int i = 0; i < ingresos.length; i++) {
+                        for (int j = 0; j < ingresos[0].length; j++) {
+                            promedio += ingresos[i][j];
+                        }
+                        System.out.print(String.format(" PROMEDIO DE INGRESOS EN EL AÑO ES: %0,2f",
+                                promedio / ingresos[0].length));
+                        System.out.println();
+                    }
                 }
                 default:
                     System.out.println("");
